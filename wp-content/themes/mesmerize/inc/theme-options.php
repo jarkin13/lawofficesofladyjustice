@@ -271,41 +271,40 @@ function mesmerize_get_gradients_classes()
         "new_life",
         "sunny_morning",
         "red_salvation",
+        "grey_flow"
     ));
 }
 
 function mesmerize_get_parsed_gradients()
 {
     return apply_filters("mesmerize_parsed_webgradients_list", array(
-        'plum_plate' => array(
-            'angle'  => '135',
-            'colors' => array(
-                0 => array(
-                    'color'    => 'rgba(102,126,234, 0.8)',
-                    'position' => '0%',
-                ),
-                1 => array(
-                    'color'    => 'rgba(118,75,162,0.8)',
-                    'position' => '100%',
-                ),
-            ),
-        ),
+      'plum_plate' => array(
+          'angle'  => '135',
+          'colors' => array(
+              0 => array(
+                  'color'    => 'rgba(102,126,234, 0.8)',
+                  'position' => '0%',
+              ),
+              1 => array(
+                  'color'    => 'rgba(118,75,162,0.8)',
+                  'position' => '100%',
+              ),
+          ),
+      ),
 
-        'red_salvation' => array(
-            'angle'  => '142',
-            'colors' => array(
-                0 => array(
-                    'color'    => 'rgba(244,59,71, 0.8)',
-                    'position' => '0%',
-                ),
-                1 => array(
-                    'color'    => 'rgba(69,58,148, 0.8)',
-                    'position' => '100%',
-                ),
-            ),
-        ),
-
-
+      'grey_flow' => array(
+          'angle'  => '0',
+          'colors' => array(
+              0 => array(
+                  'color'    => 'rgba(55,55,55,0.8)',
+                  'position' => '0%',
+              ),
+              1 => array(
+                'color'    => 'rgba(127,127,127,0.8)',
+                'position' => '100%',
+              ),
+          ),
+      ),
     ));
 }
 
