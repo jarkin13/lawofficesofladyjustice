@@ -909,5 +909,5 @@
 }
 
 .grey_flow{
-  background: linear-gradient(0, #5f5f5f 0%, #7f7f7f 100%);
+  background: linear-gradient(0, rgba(55,55,55,0.8) 0%, rgba(127,127,127,0.8) 100%);
 }
