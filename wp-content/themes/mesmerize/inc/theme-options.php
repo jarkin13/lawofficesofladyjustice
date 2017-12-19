@@ -300,7 +300,7 @@ function mesmerize_get_parsed_gradients()
                   'position' => '0%',
               ),
               1 => array(
-                'color'    => 'rgba(127,127,127,0.8)',
+                'color'    => 'rgba(150,150,150,0.8)',
                 'position' => '100%',
               ),
           ),
