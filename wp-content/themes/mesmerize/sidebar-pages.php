@@ -9,8 +9,6 @@ if ( ! is_active_sidebar('sidebar-1') || ! apply_filters('mesmerize_blog_sidebar
 }
 ?>
 
-<div class="sidebar col-sm-4 col-md-3">
-    <div class="sidebar-row">
-        <?php dynamic_sidebar('sidebar-1'); ?>
-    </div>
+<div class="sidebar-row">
+    <?php dynamic_sidebar('sidebar-1'); ?>
 </div>
