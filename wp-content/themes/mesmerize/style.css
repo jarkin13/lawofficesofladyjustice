@@ -25,7 +25,7 @@ This theme, like WordPress, is licensed under the GPL.
 }
 
 .color2 {
-  color: #FF9800;
+  color: #cd6060;
 }
 
 .color3 {
@@ -49,7 +49,7 @@ This theme, like WordPress, is licensed under the GPL.
 }
 
 .bg-color2 {
-  background-color: #FF9800;
+  background-color: #cd6060;
 }
 
 .bg-color3 {
@@ -73,7 +73,7 @@ This theme, like WordPress, is licensed under the GPL.
 }
 
 .border-color2 {
-  border-color: #FF9800;
+  border-color: #cd6060;
 }
 
 .border-color3 {
@@ -335,41 +335,41 @@ hr.small-line.color1 {
 }
 
 i.fa.color2 {
-  color: #FF9800;
+  color: #cd6060;
 }
 
 i.fa.icon.bordered.color2, i.fa.icon.color2.card[class*="bottom-border-"] {
-  border-color: #FF9800;
+  border-color: #cd6060;
 }
 
 i.fa.icon.reverse.color2 {
-  background-color: #FF9800;
+  background-color: #cd6060;
 }
 
 button.color2,
 .button.color2 {
-  background-color: #FF9800;
+  background-color: #cd6060;
 }
 
 button.color2:hover,
 .button.color2:hover {
-  background-color: #ffad33;
+  background-color: #6b6a69;
 }
 
 a.color2:not(.button) {
-  color: #FF9800;
+  color: #cd6060;
 }
 
 a.color2:not(.button):hover {
-  color: #ffad33;
+  color: #6b6a69;
 }
 
 hr.small-line.color2 {
-  background-color: #FF9800;
+  background-color: #cd6060;
 }
 
 .circle-counter.color2 .circle-bar {
-  stroke: #FF9800;
+  stroke: #cd6060;
 }
 
 i.fa.color3 {
@@ -1533,14 +1533,14 @@ button:not(.fancybox-button),
 
 .button.color2 {
   color: #ffffff;
-  background-color: #FF9800;
-  border-color: #FF9800;
+  background-color: #cd6060;
+  border-color: #cd6060;
 }
 
 .button.color2:hover {
   color: #ffffff;
-  background-color: #ffad33;
-  border-color: #ffad33;
+  background-color: #6b6a69;
+  border-color: #6b6a69;
 }
 
 .button.color2:disabled, .button.color2.disabled {
@@ -1551,8 +1551,8 @@ button:not(.fancybox-button),
 
 .button.color2.outline {
   background: none;
-  color: #FF9800;
-  border-color: #FF9800;
+  color: #cd6060;
+  border-color: #cd6060;
 }
 
 .button.color2.outline:hover {
@@ -6636,7 +6636,7 @@ html.has-offscreen.offcanvas-opened body:after {
 }
 
 .read-more.color2 {
-  color: #FF9800;
+  color: #cd6060;
 }
 
 .read-more.color3 {
@@ -6668,7 +6668,7 @@ html.has-offscreen.offcanvas-opened body:after {
 }
 
 .read-more.color2:hover {
-  color: #ffad33;
+  color: #6b6a69;
 }
 
 .read-more.color3:hover {
@@ -7525,7 +7525,7 @@ blockquote:after {
 .footer-contact-boxes .footer-bg-accent {
   padding-left: 1rem;
   padding-right: 1rem;
-  background-color: #FF9800;
+  background-color: #cd6060;
 }
 
 .footer-contact-boxes .footer-social-icons {
@@ -7603,7 +7603,7 @@ blockquote:after {
 }
 
 .footer-content-lists .footer-border-accent {
-  border-top: 5px solid #FF9800;
+  border-top: 5px solid #cd6060;
 }
 
 .footer-content-lists .widgets-row > * {
@@ -8683,7 +8683,7 @@ hr.small-line {
 }
 
 .top-right-triangle.color2 {
-  border-right-color: #FF9800;
+  border-right-color: #cd6060;
 }
 
 .top-right-triangle.color3 {
@@ -8891,7 +8891,7 @@ div.section-separator-bottom {
 }
 
 .checked.decoration-color2 li:before {
-  color: #FF9800;
+  color: #cd6060;
 }
 
 .checked.decoration-color3 li:before {
@@ -8924,7 +8924,7 @@ div.section-separator-bottom {
 }
 
 .stared.decoration-color2 li:before {
-  color: #FF9800;
+  color: #cd6060;
 }
 
 .stared.decoration-color3 li:before {
@@ -9040,7 +9040,7 @@ div.section-separator-bottom {
 }
 
 .card.bottom-border-color2 {
-  border-bottom-color: #FF9800;
+  border-bottom-color: #cd6060;
 }
 
 .card.bottom-border-color3 {
@@ -9072,7 +9072,7 @@ div.section-separator-bottom {
 }
 
 .card.card-color2 {
-  background-color: #FF9800;
+  background-color: #cd6060;
 }
 
 .card.card-color3 {
@@ -9108,7 +9108,7 @@ div.section-separator-bottom {
 }
 
 .border-color2 {
-  border-color: #FF9800;
+  border-color: #cd6060;
 }
 
 .border-color3 {
