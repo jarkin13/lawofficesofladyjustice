@@ -315,7 +315,7 @@ button.color1,
 
 button.color1:hover,
 .button.color1:hover {
-  background-color: #2ebcfc;
+  background-color: #cd6060;
 }
 
 a.color1:not(.button) {
@@ -323,7 +323,7 @@ a.color1:not(.button) {
 }
 
 a.color1:not(.button):hover {
-  color: #2ebcfc;
+  color: #cd6060;
 }
 
 hr.small-line.color1 {
@@ -585,7 +585,7 @@ a {
 }
 
 a:hover {
-  color: #2ebcfc;
+  color: #cd6060;
 }
 
 h1.title, h1, h2, h3, h4, h5, .comment-author .fn, h6 {
@@ -1146,8 +1146,8 @@ button:not(.pswp__button):not(.customize-partial-edit-shortcut-button):not(.fanc
   outline: none;
   text-decoration: none;
   color: #fff;
-  background-color: #2ebcfc;
-  border-color: #2ebcfc;
+  background-color: #cd6060;
+  border-color: #cd6060;
 }
 
 button:not(.pswp__button):not(.customize-partial-edit-shortcut-button):not(.fancybox-button):disabled, button:not(.pswp__button):not(.customize-partial-edit-shortcut-button):not(.fancybox-button):disabled[disabled], button:not(.pswp__button):not(.customize-partial-edit-shortcut-button):not(.fancybox-button).disabled,
@@ -1504,8 +1504,8 @@ button:not(.fancybox-button),
 
 .button.color1:hover {
   color: #ffffff;
-  background-color: #2ebcfc;
-  border-color: #2ebcfc;
+  background-color: #cd6060;
+  border-color: #cd6060;
 }
 
 .button.color1:disabled, .button.color1.disabled {
@@ -6664,7 +6664,7 @@ html.has-offscreen.offcanvas-opened body:after {
 }
 
 .read-more.color1:hover {
-  color: #2ebcfc;
+  color: #cd6060;
 }
 
 .read-more.color2:hover {
@@ -6874,7 +6874,7 @@ html.has-offscreen.offcanvas-opened body:after {
 
 .nav-links .prev-navigation a:hover, .post-comments .navigation .prev-navigation a:hover,
 .nav-links .next-navigation a:hover, .post-comments .navigation .next-navigation a:hover {
-  background-color: #2ebcfc;
+  background-color: #cd6060;
   border: 0;
   color: #ffffff;
 }
@@ -7203,7 +7203,7 @@ blockquote:after {
 }
 
 .sidebar .widget > ul > li a:hover {
-  color: #2ebcfc;
+  color: #cd6060;
 }
 
 /*
@@ -7248,11 +7248,11 @@ blockquote:after {
 }
 
 .footer a:hover {
-  color: #2ebcfc;
+  color: #cd6060;
 }
 
 .footer a:hover .fa {
-  color: #2ebcfc;
+  color: #cd6060;
 }
 
 .footer h1, .footer h2, .footer h3, .footer h4, .footer h5, .footer .comment-author .fn, .comment-author .footer .fn, .footer h6 {
@@ -8623,8 +8623,8 @@ hr.small-line {
   outline: none;
   text-decoration: none;
   color: #ffffff;
-  background-color: #2ebcfc;
-  border-color: #2ebcfc;
+  background-color: #cd6060;
+  border-color: #cd6060;
 }
 
 .subscribe-form input[type="submit"]:disabled, .subscribe-form input[type="submit"]:disabled[disabled], .subscribe-form input[type="submit"].disabled {
@@ -9309,8 +9309,8 @@ dl dt {
   outline: none;
   text-decoration: none;
   color: #ffffff;
-  background-color: #2ebcfc;
-  border-color: #2ebcfc;
+  background-color: #cd6060;
+  border-color: #cd6060;
 }
 
 .contact-form-wrapper input[type=submit]:disabled, .contact-form-wrapper input[type=submit]:disabled[disabled], .contact-form-wrapper input[type=submit].disabled {
