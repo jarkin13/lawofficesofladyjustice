@@ -9458,25 +9458,26 @@ a[data-fancybox] {
   }
 }
 
-.social-col ul {
+.social-list {
   list-style: none;
   margin: 0;
-  float: right;
+  position: absolute;
+  bottom: -10px;
 }
 
-.social-col li {
+.social-list li {
   float: left;
   margin-left: 15px;
 }
 
-.social-col a {
+.social-list a {
   color: #ffffff;
 }
 
-.social-col a:hover {
+.social-list a:hover {
   color: #970303;
 }
 
-.fixto-fixed .social-col a {
+.fixto-fixed .social-list a {
   color: rgba(0, 0, 0, .5);
 }
