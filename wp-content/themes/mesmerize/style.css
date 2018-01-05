@@ -9457,31 +9457,3 @@ a[data-fancybox] {
     padding-bottom: 1rem;
   }
 }
-
-.social-list {
-  list-style: none;
-  margin: 0;
-  position: absolute;
-  bottom: -17px;
-}
-
-.social-list li {
-  float: left;
-  margin-left: 15px;
-}
-
-.social-list a {
-  color: #ffffff;
-}
-
-.social-list a:hover {
-  color: #970303;
-}
-
-.social-list li > a > i {
-  font-size: 1.25em;
-}
-
-.fixto-fixed .social-list a {
-  color: rgba(0, 0, 0, .5);
-}
