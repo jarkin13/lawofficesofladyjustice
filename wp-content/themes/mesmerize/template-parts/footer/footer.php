@@ -3,7 +3,7 @@
         <div class="gridContainer">
 	        <div class="row middle-xs footer-content-row">
 	            <div class="footer-content-col col-xs-12">
-                      <p>
+                      <p class"footer-text">
                         Law Offices of Lady Justice is a Professional Law Corporation that represents clients all over Southern California. The information contained on this website is not to be construed as legal advice. It is not intended to solicit or form an attorney-client relationship.
                       </p>
 	                    <?php echo mesmerize_get_footer_copyright(); ?>
