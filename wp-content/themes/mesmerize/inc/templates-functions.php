@@ -252,7 +252,7 @@ function mesmerize_get_footer_copyright()
         $previewAtts = 'data-footer-copyright="true"';
     }
 
-    $copyright = '<p ' . $previewAtts . ' class="copyright">&copy;&nbsp;' . "&nbsp;" . date_i18n(__('Y', 'mesmerize')) . '&nbsp;' . esc_html(get_bloginfo('name')) . '</p>';
+    $copyright = '<p ' . $previewAtts . ' class="copyright">&copy;&nbsp;' . "2009 - " . date_i18n(__('Y', 'mesmerize')) . '&nbsp;' . esc_html(get_bloginfo('name')) . '</p>';
 
     return apply_filters('mesmerize_get_footer_copyright', $copyright, $previewAtts);
 }
