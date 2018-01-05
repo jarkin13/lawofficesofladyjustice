@@ -5,7 +5,6 @@ add_action("mesmerize_customize_register_options", function () {
     mesmerize_navigation_general_options(true);
 });
 
-
 function mesmerize_navigation_general_options($inner = false)
 {
     $priority = 1;
@@ -308,6 +307,23 @@ function mesmerize_print_primary_menu($walker = '', $fallback = 'mesmerize_nomen
     ));
 
     mesmerize_get_offcanvas_primary_menu();
+}
+
+function mesmerize_print_secondary_menu($walker = '', $fallback = 'mesmerize_nomenu_cb')
+{
+
+    $drop_down_menu_classes = apply_filters('mesmerize_primary_drop_menu_classes', array('default'));
+    $drop_down_menu_classes = array_merge($drop_down_menu_classes, array('main-menu', 'dropdown-menu'));
+
+    wp_nav_menu(array(
+        'theme_location'  => 'secondary',
+        'menu_id'         => 'main_menu',
+        'menu_class'      => esc_attr(implode(" ", $drop_down_menu_classes)),
+        'container_id'    => 'mainmenu_container',
+        'container_class' => 'row',
+        'fallback_cb'     => $fallback,
+        'walker'          => $walker,
+    ));
 }
 
 

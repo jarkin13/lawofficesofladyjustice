@@ -16,8 +16,13 @@
               </ul>
 	        </div>
 	        <div class="main_menu_col col-xs">
-	            <?php mesmerize_print_primary_menu(); ?>
+            <?php mesmerize_print_primary_menu(); ?>
           </div>
 	    </div>
+      <div class="row basis-auto">
+          <div class="main_menu_col col-xs">
+            <?php mesmerize_print_secondary_menu(); ?>
+          </div>
+      </div>
     </div>
 </div>

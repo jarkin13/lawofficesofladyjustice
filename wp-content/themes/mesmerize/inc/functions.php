@@ -97,6 +97,7 @@ function mesmerize_setup()
 
     register_nav_menus(array(
         'primary' => esc_html__('Primary Menu', 'mesmerize'),
+        'secondary' => esc_html__('Secondary Menu', 'mesmerize'),
     ));
 
     include_once get_template_directory() . '/customizer/kirki/kirki.php';
