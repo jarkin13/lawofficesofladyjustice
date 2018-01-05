@@ -9451,7 +9451,6 @@ a[data-fancybox] {
 .social-icons-group > *, .social-icons-group i.fa {
   margin-bottom: 0px;
 }
-
 @media (min-width: 767px) {
   [data-content-shortcode] .post-content.card {
     padding-bottom: 1rem;
