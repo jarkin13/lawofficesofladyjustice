@@ -3,7 +3,7 @@
 function mesmerize_front_page_header_subtitle_options($section, $prefix, $priority)
 {
     $companion = apply_filters('mesmerize_is_companion_installed', false);
-  
+
 
     mesmerize_add_kirki_field(array(
         'type'     => 'checkbox',
@@ -76,7 +76,7 @@ function mesmerize_print_header_subtitle()
         }
     }
     if ($show) {
-        printf('<p class="header-subtitle">%1$s</p>', mesmerize_wp_kses_post($subtitle));
+        //printf('<p class="header-subtitle">%1$s</p>', mesmerize_wp_kses_post($subtitle));
+        printf('<p class="header-subtitle">Where you <span class="underline">always</span> speak and work directly with an attorney.</p>', mesmerize_wp_kses_post($subtitle));
     }
 }
-
