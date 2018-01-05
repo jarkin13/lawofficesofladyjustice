@@ -169,6 +169,9 @@
                 case "link":
                     $el.attr('href', value.link);
                     $el.attr('target', value.target);
+
+                    $el.attr('data-cp-link', 1);
+
                     break;
                 case "text":
                     var html = $el.html().replace(field.value, value);

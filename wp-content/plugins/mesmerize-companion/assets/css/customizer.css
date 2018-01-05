@@ -1581,3 +1581,8 @@ label.link-options-group .target-option {
 .cp-tinymce-inline button:hover {
     background-color: inherit !important;
 }
+
+#customize-controls .customize-control-color .wp-picker-active input,
+#customize-controls .customize-control-kirki .wp-picker-active input{
+    display: inline-block !important;
+}

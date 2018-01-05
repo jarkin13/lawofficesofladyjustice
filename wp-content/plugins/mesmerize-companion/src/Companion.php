@@ -115,6 +115,9 @@ class Companion
     public function initCompanion()
     {
 
+
+        $this->checkNotifications();
+
         $this->checkIfCompatibleChildTheme();
 
         $this->_customizer = new \Mesmerize\Customizer\Customizer($this);
@@ -158,6 +161,18 @@ class Companion
             });
 
         });
+    }
+
+    public function checkNotifications()
+    {
+        $notifications = $this->themeDataPath("/notifications.php");
+        if (file_exists($notifications)) {
+            $notifications = require_once $notifications;
+        } else {
+            $notifications = array();
+        }
+
+        \Mesmerize\Notify\NotificationsManager::load($notifications);
     }
 
     public function setKirkiOutputFields()
@@ -351,11 +366,11 @@ class Companion
 
     public function isProtectedMeta($protected, $meta_key, $meta_type)
     {
-        $protected = array(
+        $is_protected = array(
             'is_' . $this->themeSlug . '_front_page',
             'is_' . $this->themeSlug . '_maintainable_page',
         );
-        if (in_array($meta_key, $protected)) {
+        if (in_array($meta_key, $is_protected)) {
             return true;
         }
 
@@ -651,7 +666,7 @@ class Companion
 
             $actions = array_merge(
                 array(
-                    "cp_page_builder" => '<a href="#" onclick="cp_open_page_in_customizer(' . $post->ID . ')" >Edit in Customizer</a>',
+                    "cp_page_builder" => '<a href="javascript:void();" onclick="cp_open_page_in_customizer(' . $post->ID . ')" >Edit in Customizer</a>',
                 ),
                 $actions
             );
@@ -665,7 +680,7 @@ class Companion
         global $post;
 
         if ($this->canEditInCustomizer($post)) {
-            echo '<a href="#"  onclick="cp_open_page_in_customizer(' . $post->ID . ')"  class="button button-primary">' . __('Edit In Customizer', 'cloudpress-companion') . '</a>';
+            echo '<a href="javascript:void();"  onclick="cp_open_page_in_customizer(' . $post->ID . ')"  class="button button-primary">' . __('Edit In Customizer', 'cloudpress-companion') . '</a>';
         }
     }
 

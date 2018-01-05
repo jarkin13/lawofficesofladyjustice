@@ -1443,8 +1443,7 @@
                     return undefined;
                 }
 
-                var attrShortcode = shortcode.replace('[', '').replace(']', '');
-
+                var attrShortcode = CP_Customizer.utils.phpTrim(shortcode, '[]');
                 $node.attr('data-content-shortcode', attrShortcode);
 
                 if (noRerender !== true) {
@@ -1789,7 +1788,7 @@
 
 
                     $currentNodes[0].querySelectorAll('[data-content-shortcode]').forEach(function (el) {
-                        el.innerHTML = '[' + el.getAttribute('data-content-shortcode') + ']';
+                        el.innerHTML = '[' + CP_Customizer.utils.phpTrim(el.getAttribute('data-content-shortcode')) + ']';
                     });
 
 
