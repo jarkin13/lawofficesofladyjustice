@@ -1,7 +1,7 @@
 <div class="navigation-bar <?php esc_attr(mesmerize_header_main_class()) ?>" <?php mesmerize_navigation_sticky_attrs() ?>>
     <div class="navigation-wrapper <?php esc_attr(mesmerize_navigation_wrapper_class()) ?>">
     	<div class="row basis-auto">
-	        <div class="logo_col col-xs col-sm-fit">
+	        <div class="logo_col col-xs-fit col-sm-fit">
 	            <?php mesmerize_print_logo(); ?>
               <ul class="social-list">
                 <li>
